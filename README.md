@@ -15,7 +15,6 @@ npm install or yarn install
 Roomexapi/test/
 ```
 
-```
 ## For Run TestCases Open Terminal and Run below Command
 ```
 npm test
