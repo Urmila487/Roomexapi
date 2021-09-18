@@ -3,7 +3,7 @@ const request = supertest('https://xkcd.com/614/');
 
 import { expect } from 'chai';
 
-describe('API test TestSuite', () => {
+describe('API test', () => {
   it('GET /response/title', () => {
     return request.get('info.0.json').then((res) => {
       expect(res.body).to.not.be.empty;  // Body not be empty
